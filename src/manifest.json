@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "Mimi Tourette",
+  "version": "1.0.0",
+  "content_scripts": [
+    {
+      "matches": ["*://www.mimibazar.cz/*"],
+      "js": ["replace-exploitives.js"]
+    }
+  ]
+}
